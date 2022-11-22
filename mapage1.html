@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="fr-FR">
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=devise-width,initial-scale=1.0">
+        <title>Gestion de budget</title>
+        <link rel="stylesheet" href="monstyle.css">
+    </head>
+    <div class="bod">
+    <body>
+      <h1 id="gest">Gestion de mon budget</h1>
+    <div class="menu">
+    <div class="madiv">
+      <h2>Incoms 600000 </h2>
+    </div>
+    <div class="exp">
+      <h2>Expenses 300000</h2>
+    </div>
+    <div class="bal">
+      <h2>Balance 200000</h2>
+    </div>
+    </div>
+    <div class="select">
+      <form >
+        <div class="colum">
+         <select  id="but">
+           <option value="">+</option>
+           <option value="">-</option>
+         </select>
+          <input type="text" id="nombre" name="nombre">
+          <button type="submit" id="nota">Envoyer</button>
+       </div>
+      
+      </form><br><br><br>
+      <div class="dep">
+        <h2 class="hit">liste des depenses</h2>
+        <button type="submit" id="env">Ajouter depenses</button>
+      </div>
+     <div class="tab1">
+      <table class="t1">
+      
+        <thead>
+          <tr>
+            <th>Titre</th>
+            <th>Montant</th>
+            <th>Action</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Nouriture</td>
+            <td>200000F</td>
+            <td> <button type="submit" id="mod">Modifier</button> <button type="submit" id="nou">Suprimer</button> </td>
+        </tr>
+        <tr>
+            <td>Transport,Effets-personnels</td>
+            <td>100000F</td>
+            <td> <button type="submit" id="pers"> Modifier</button> <button type="submit" id="trans">Suprimer </button></td>
+       </tr>
+        </tbody>
+     </table><br><br><br>
+    </div>
+    <div class="rev">
+      <h2 class="dip">liste des Revenues</h2>
+      <button type="submit" id="rec">Ajouter Revenues</button>
+    </div>
+  <div class="tab2">
+    <table class="t2">
+     <thead>
+      <tr>
+       <th>Titre</th>
+       <th>Montant</th>
+       <th>Action</th>
+      
+      </tr>
+    </thead>
+    <tbody>
+       <tr>
+          <td>Salaire</td>
+          <td>500000F</td>
+          <td> <button type="submit" id="sal"> Modifier</button > <button type="submit" id="revu">Suprimer</button></td>
+      </tr>
+      <tr>
+          <td>Dividentes d'investissement </td>
+          <td>100000F</td>
+          <td><button type="submit" id="ins">Modifier</button> <button type="submit" id="dent">Suprimer</button></td>
+      </tr>
+    </tbody>
+
+   </table>
+     </div>
+    </div>
+    </body>
+ </div>
+
+</html>
